@@ -16,5 +16,5 @@
  * limitations under the License.
  */
 
-export * as GEO_CHINA from "./geo-china.map.json";
-export * as GEO_CHINA_CITY from "./geo-china-city.map.json";
+export * as GEO_CHINA from "./data/geo-china.map.json";
+export * as GEO_CHINA_CITY from "./data/geo-china-city.map.json";
