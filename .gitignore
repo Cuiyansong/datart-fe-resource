@@ -1,0 +1,9 @@
+## Project
+**/dist
+
+## IDE
+.DS_Store
+**/.DS_Store
+
+## Depdency
+node_modules/
