@@ -1,8 +1,10 @@
 {
     "name": "stephen-datart-fe-geo",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "geo resource",
-    "keywords": ["geo"],
+    "keywords": [
+        "geo"
+    ],
     "author": "Stephen Cui <229063661@qq.com>",
     "homepage": "https://github.com/Cuiyansong/datart-fe-resource#readme",
     "license": "ISC",
@@ -12,7 +14,8 @@
         "test": "__tests__"
     },
     "files": [
-        "dist/**.js", "**/**.json"
+        "dist/**.js",
+        "**/**.json"
     ],
     "repository": {
         "type": "git",
