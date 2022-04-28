@@ -7,8 +7,7 @@
         "format": "yarn prettier --write .",
         "build": "yarn build:packages",
         "build:packages": "lerna run build",
-        "release:git": "lerna version",
-        "release:npm": "lerna publish"
+        "release": "lerna publish"
     },
     "devDependencies": {
         "@commitlint/cli": "^16.2.4",

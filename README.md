@@ -12,7 +12,9 @@
 
 ## Publish
 
-`yarn run release:npm`
+Before Publish: `npm login` in root path
+
+`yarn run release`
 
 ## Reference
 
