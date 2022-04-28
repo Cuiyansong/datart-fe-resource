@@ -22,13 +22,14 @@
         "url": "git+https://github.com/Cuiyansong/datart-fe-resource.git"
     },
     "scripts": {
-        "build": "rollup -c"
+        "build": "rimraf dist && rollup -c"
     },
     "bugs": {
         "url": "https://github.com/Cuiyansong/datart-fe-resource/issues"
     },
     "devDependencies": {
         "@rollup/plugin-json": "^4.1.0",
+        "rimraf": "^3.0.2",
         "rollup": "^2.70.2",
         "rollup-plugin-progress": "^1.1.2",
         "rollup-plugin-terser": "^7.0.2"
