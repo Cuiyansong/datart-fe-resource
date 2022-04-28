@@ -6,9 +6,13 @@
 
 `yarn run boot`
 
+## Version
+
+`yarn run release:git`
+
 ## Publish
 
-// TBD
+`yarn run release:npm`
 
 ## Reference
 

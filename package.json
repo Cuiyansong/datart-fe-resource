@@ -6,7 +6,9 @@
         "boot": "lerna bootstrap",
         "format": "yarn prettier --write .",
         "build": "yarn build:packages",
-        "build:packages": "lerna run build"
+        "build:packages": "lerna run build",
+        "release:git": "lerna version",
+        "release:npm": "lerna publish"
     },
     "devDependencies": {
         "@commitlint/cli": "^16.2.4",
@@ -25,5 +27,6 @@
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
-    }
+    },
+    "version": "0.0.0"
 }
