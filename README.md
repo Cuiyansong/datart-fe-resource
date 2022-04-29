@@ -10,13 +10,13 @@
 
 ## Version
 
-`yarn run release:git`
+`yarn run release:version`
 
 ## Publish
 
 Before Publish: `npm login` in root path
 
-`yarn run release`
+`yarn run release:git`
 
 ## Reference
 
